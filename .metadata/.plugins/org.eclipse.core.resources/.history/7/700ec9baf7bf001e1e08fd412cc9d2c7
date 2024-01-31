@@ -1,0 +1,14 @@
+package kr.co.icia.mapline.util.kakao;
+@JsonIgnoreProperties(ignoreUnknown = true)
+public static class Document {
+	private Double x;
+	private Double y;
+
+	public Double getX() {
+		return x;
+	}
+
+	public Double getY() {
+		return y;
+	}
+}
